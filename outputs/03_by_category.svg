@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+<defs>
+  <linearGradient id="gG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#58A6FF"/>
+    <stop offset="100%" stop-color="#1158A6"/>
+  </linearGradient>
+  <linearGradient id="gQ" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#FF7B54"/>
+    <stop offset="100%" stop-color="#A63011"/>
+  </linearGradient>
+  <linearGradient id="bgG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0D1117"/>
+    <stop offset="100%" stop-color="#161B22"/>
+  </linearGradient>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+    <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.4"/>
+  </filter>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+  </filter>
+  
+</defs>
+<rect width="800" height="480" fill="url(#bgG)" rx="12"/>
+<defs><linearGradient id="topbar4" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#58A6FF"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#FF7B54"/></linearGradient></defs>
+<rect x="0" y="0" width="800" height="4" fill="url(#topbar4)" rx="2"/>
+<text x="400" y="36" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="18" font-weight="700" fill="#E6EDF3">Performance by Category</text>
+<text x="400" y="56" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="normal" fill="#8B949E">Avg quality score per task type</text>
+<text x="28" y="190" text-anchor="start" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#8B949E">Score</text>
+<line x1="20" y1="80" x2="20" y2="290" stroke="#484F58" stroke-width="1"/>
+<line x1="30" y1="290" x2="780" y2="290" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="12" y="294" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">0.00</text>
+<line x1="30" y1="238" x2="780" y2="238" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="12" y="242" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">0.25</text>
+<line x1="30" y1="185" x2="780" y2="185" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="12" y="189" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">0.50</text>
+<line x1="30" y1="133" x2="780" y2="133" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="12" y="137" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">0.75</text>
+<line x1="30" y1="80" x2="780" y2="80" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="12" y="84" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">1.00</text>
+<line x1="20" y1="290" x2="780" y2="290" stroke="#30363D" stroke-width="1"/>
+<rect x="106" y="80" width="70" height="210" fill="url(#gG)" rx="4"/>
+<text x="141" y="74" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" font-weight="600" fill="#58A6FF">1.00</text>
+<rect x="184" y="99" width="70" height="191" fill="url(#gQ)" rx="4"/>
+<text x="219" y="93" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" font-weight="600" fill="#FF7B54">0.91</text>
+<text x="211" y="308" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#E6EDF3">Coding</text>
+<rect x="326" y="137" width="70" height="153" fill="url(#gG)" rx="4"/>
+<text x="361" y="131" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" font-weight="600" fill="#58A6FF">0.73</text>
+<rect x="404" y="229" width="70" height="61" fill="url(#gQ)" rx="4"/>
+<text x="439" y="223" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" font-weight="600" fill="#FF7B54">0.29</text>
+<text x="431" y="308" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#E6EDF3">Reasoning</text>
+<rect x="546" y="125" width="70" height="165" fill="url(#gG)" rx="4"/>
+<text x="581" y="119" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" font-weight="600" fill="#58A6FF">0.79</text>
+<rect x="624" y="167" width="70" height="123" fill="url(#gQ)" rx="4"/>
+<text x="659" y="161" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" font-weight="600" fill="#FF7B54">0.59</text>
+<text x="651" y="308" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#E6EDF3">Instruction</text>
+<text x="651" y="324" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#E6EDF3">Following</text>
+<text x="400" y="328" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#8B949E">Cost per Category (USD, 5 prompts each)</text>
+<line x1="20" y1="430" x2="780" y2="430" stroke="#30363D" stroke-width="1"/>
+<line x1="20" y1="340" x2="20" y2="430" stroke="#484F58" stroke-width="1"/>
+<line x1="20" y1="430" x2="780" y2="430" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="12" y="434" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#484F58">$0.0000</text>
+<line x1="20" y1="385" x2="780" y2="385" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="12" y="389" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#484F58">$0.0110</text>
+<line x1="20" y1="340" x2="780" y2="340" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="12" y="344" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#484F58">$0.0220</text>
+<rect x="106" y="426" width="70" height="4" fill="url(#gG)" rx="3"/>
+<text x="141" y="422" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#58A6FF">$0.00122</text>
+<rect x="184" y="407" width="70" height="23" fill="url(#gQ)" rx="3"/>
+<text x="219" y="403" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#FF7B54">$0.00571</text>
+<rect x="326" y="427" width="70" height="3" fill="url(#gG)" rx="3"/>
+<text x="361" y="423" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#58A6FF">$0.000904</text>
+<rect x="404" y="407" width="70" height="23" fill="url(#gQ)" rx="3"/>
+<text x="439" y="403" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#FF7B54">$0.00573</text>
+<rect x="546" y="428" width="70" height="2" fill="url(#gG)" rx="3"/>
+<text x="581" y="424" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#58A6FF">$0.000109</text>
+<rect x="624" y="353" width="70" height="77" fill="url(#gQ)" rx="3"/>
+<text x="659" y="349" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#FF7B54">$0.0189</text>
+<rect x="278" y="448" width="10" height="10" fill="#58A6FF" rx="2"/>
+<text x="294" y="458" text-anchor="start" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">Gemma 4 26B MoE</text>
+<rect x="420" y="448" width="10" height="10" fill="#FF7B54" rx="2"/>
+<text x="436" y="458" text-anchor="start" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">Qwen 3.5 27B</text>
+</svg>

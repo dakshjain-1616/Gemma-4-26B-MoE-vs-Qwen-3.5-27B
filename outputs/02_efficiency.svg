@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+<defs>
+  <linearGradient id="gG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#58A6FF"/>
+    <stop offset="100%" stop-color="#1158A6"/>
+  </linearGradient>
+  <linearGradient id="gQ" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#FF7B54"/>
+    <stop offset="100%" stop-color="#A63011"/>
+  </linearGradient>
+  <linearGradient id="bgG" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0D1117"/>
+    <stop offset="100%" stop-color="#161B22"/>
+  </linearGradient>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+    <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.4"/>
+  </filter>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="6" result="blur"/>
+    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+  </filter>
+  
+</defs>
+<rect width="800" height="400" fill="url(#bgG)" rx="12"/>
+<defs><linearGradient id="topbar3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#58A6FF"/><stop offset="100%" stop-color="#58A6FF" stop-opacity="0.3"/></linearGradient></defs>
+<rect x="0" y="0" width="800" height="4" fill="url(#topbar3)" rx="2"/>
+<text x="400" y="36" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="18" font-weight="700" fill="#E6EDF3">Score per Dollar</text>
+<text x="400" y="56" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="normal" fill="#8B949E">Higher = better value. Quality score achieved per USD spent.</text>
+<rect x="180" y="107" width="100" height="223" fill="url(#gG)" rx="6"/>
+<text x="230" y="79" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="26" font-weight="700" fill="#58A6FF">375.9</text>
+<text x="230" y="97" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" font-weight="normal" fill="#8B949E">score / dollar</text>
+<text x="230" y="348" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="normal" fill="#58A6FF">Gemma 4 26B MoE</text>
+<rect x="500" y="319" width="100" height="11" fill="url(#gQ)" rx="6"/>
+<text x="550" y="291" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="26" font-weight="700" fill="#FF7B54">19.7</text>
+<text x="550" y="309" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" font-weight="normal" fill="#8B949E">score / dollar</text>
+<text x="550" y="348" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="normal" fill="#FF7B54">Qwen 3.5 27B</text>
+<line x1="120" y1="330" x2="680" y2="330" stroke="#30363D" stroke-width="1"/>
+<line x1="120" y1="268" x2="680" y2="268" stroke="#21262D" stroke-width="1" stroke-dasharray="3,4"/>
+<text x="112" y="272" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">105</text>
+<line x1="120" y1="205" x2="680" y2="205" stroke="#21262D" stroke-width="1" stroke-dasharray="3,4"/>
+<text x="112" y="209" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">210</text>
+<line x1="120" y1="143" x2="680" y2="143" stroke="#21262D" stroke-width="1" stroke-dasharray="3,4"/>
+<text x="112" y="147" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">315</text>
+<line x1="120" y1="80" x2="680" y2="80" stroke="#21262D" stroke-width="1" stroke-dasharray="3,4"/>
+<text x="112" y="84" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">420</text>
+<text x="390" y="185" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="40" font-weight="700" fill="#3FB950">19×</text>
+<text x="390" y="225" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" font-weight="normal" fill="#3FB950">more value</text>
+<text x="390" y="243" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" font-weight="normal" fill="#3FB950">per dollar</text>
+<line x1="30" y1="380" x2="770" y2="380" stroke="#30363D" stroke-width="1" stroke-dasharray="2,4"/>
+<text x="400" y="398" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#484F58">Gemma's MoE design activates only ~4B params/token → 13.6× lower output token cost → 19× better value</text>
+</svg>
