@@ -89,7 +89,7 @@
 <rect x="40" y="133" width="140" height="26" fill="#1C2128" rx="4" stroke="#58A6FF" stroke-width="1"/>
 <text x="110" y="148" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#58A6FF">Gemma cluster (cheap+fast)</text>
 <rect x="594" y="106" width="160" height="22" fill="#1C2128" rx="4" stroke="#FF7B54" stroke-width="1"/>
-<text x="674" y="120" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#FF7B54">Qwen haiku: $0.00986, 67s</text>
+<text x="674" y="120" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#FF7B54">Qwen: $0.00986, 67s</text>
 <circle cx="290" cy="476" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
 <text x="303" y="481" text-anchor="start" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">Gemma 4 26B MoE (15 calls)</text>
 <circle cx="490" cy="476" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
