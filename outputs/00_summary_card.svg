@@ -26,45 +26,45 @@
 <rect x="0" y="0" width="800" height="4" fill="url(#topbar)" rx="2"/>
 <text x="400" y="38" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#E6EDF3">Gemma 4 26B MoE  vs  Qwen 3.5 27B</text>
 <text x="400" y="60" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="normal" fill="#8B949E">Cost-Quality Benchmark · 15 prompts · 3 categories · OpenRouter · April 2026</text>
-<rect x="255" y="74" width="290" height="32" fill="#0D2010" rx="16" stroke="#3FB950" stroke-width="1.5"/>
-<text x="400" y="95" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#3FB950">🏆  Winner on all metrics: Gemma 4 26B MoE</text>
+<rect x="200" y="74" width="400" height="32" fill="#0D2010" rx="16" stroke="#3FB950" stroke-width="1.5"/>
+<text x="400" y="95" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" font-weight="600" fill="#3FB950">🏆  Gemma 4 wins on cost · Quality is nearly equal (0.84 vs 0.82)</text>
 <rect x="22" y="120" width="172" height="220" fill="#161B22" rx="10" stroke="#30363D" stroke-width="1"/>
 <text x="108" y="148" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#8B949E">QUALITY SCORE</text>
 <text x="108" y="195" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="32" font-weight="700" fill="#58A6FF">0.84</text>
-<text x="108" y="218" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">vs 0.60 Qwen</text>
+<text x="108" y="218" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">vs 0.82 Qwen</text>
 <line x1="38" y1="228" x2="178" y2="228" stroke="#30363D" stroke-width="1"/>
-<text x="108" y="264" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="30" font-weight="700" fill="#3FB950">1.41×</text>
+<text x="108" y="264" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="30" font-weight="700" fill="#3FB950">1.02×</text>
 <text x="108" y="285" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">better score</text>
 <rect x="38" y="300" width="140" height="8" fill="#21262D" rx="4"/>
 <rect x="38" y="300" width="117" height="8" fill="url(#gG)" rx="4"/>
 <rect x="38" y="314" width="140" height="8" fill="#21262D" rx="4"/>
-<rect x="38" y="314" width="83" height="8" fill="url(#gQ)" rx="4"/>
+<rect x="38" y="314" width="114" height="8" fill="url(#gQ)" rx="4"/>
 <text x="38" y="338" text-anchor="start" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" font-weight="normal" fill="#58A6FF">● Gemma</text>
 <text x="178" y="338" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" font-weight="normal" fill="#FF7B54">● Qwen</text>
 <rect x="206" y="120" width="172" height="220" fill="#161B22" rx="10" stroke="#30363D" stroke-width="1"/>
 <text x="292" y="148" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#8B949E">TOTAL RUN COST</text>
-<text x="292" y="195" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="32" font-weight="700" fill="#58A6FF">$0.0022</text>
-<text x="292" y="218" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">vs $0.0303 Qwen</text>
+<text x="292" y="195" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="32" font-weight="700" fill="#58A6FF">$0.0023</text>
+<text x="292" y="218" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">vs $0.0385 Qwen</text>
 <line x1="222" y1="228" x2="362" y2="228" stroke="#30363D" stroke-width="1"/>
-<text x="292" y="264" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="30" font-weight="700" fill="#3FB950">13.6×</text>
+<text x="292" y="264" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="30" font-weight="700" fill="#3FB950">17×</text>
 <text x="292" y="285" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">cheaper per run</text>
 <rect x="390" y="120" width="172" height="220" fill="#161B22" rx="10" stroke="#30363D" stroke-width="1"/>
 <text x="476" y="148" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#8B949E">AVG LATENCY</text>
-<text x="476" y="195" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="32" font-weight="700" fill="#58A6FF">3.96s</text>
-<text x="476" y="218" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">vs 15.2s Qwen</text>
+<text x="476" y="195" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="32" font-weight="700" fill="#58A6FF">14.2s</text>
+<text x="476" y="218" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">vs 20.9s Qwen</text>
 <line x1="406" y1="228" x2="546" y2="228" stroke="#30363D" stroke-width="1"/>
-<text x="476" y="264" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="30" font-weight="700" fill="#3FB950">3.9×</text>
+<text x="476" y="264" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="30" font-weight="700" fill="#3FB950">1.5×</text>
 <text x="476" y="285" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">faster response</text>
 <rect x="574" y="120" width="172" height="220" fill="#161B22" rx="10" stroke="#30363D" stroke-width="1"/>
 <text x="660" y="148" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#8B949E">SCORE PER DOLLAR</text>
-<text x="660" y="195" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="32" font-weight="700" fill="#58A6FF">376</text>
-<text x="660" y="218" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">vs 19.7 Qwen</text>
+<text x="660" y="195" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="32" font-weight="700" fill="#58A6FF">373</text>
+<text x="660" y="218" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">vs 21.3 Qwen</text>
 <line x1="590" y1="228" x2="730" y2="228" stroke="#30363D" stroke-width="1"/>
-<text x="660" y="264" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="30" font-weight="700" fill="#3FB950">19×</text>
+<text x="660" y="264" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="30" font-weight="700" fill="#3FB950">18×</text>
 <text x="660" y="285" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">better value</text>
 <line x1="30" y1="358" x2="770" y2="358" stroke="#30363D" stroke-width="1" stroke-dasharray="4,4"/>
 <text x="400" y="378" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#484F58">MoE architecture uses only ~4B active params/token vs 27B dense — same hardware tier, dramatically different economics</text>
-<text x="400" y="400" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#484F58">Failures: 5 Qwen reasoning/instruction calls returned null (scored 0.0) · Gemma: 0 failures</text>
+<text x="400" y="400" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#484F58">Quality gap is narrow (0.84 vs 0.82) · Cost gap is large · Qwen thinking-mode inflates token spend</text>
 <rect x="30" y="420" width="12" height="12" fill="#58A6FF" rx="2"/>
 <text x="48" y="431" text-anchor="start" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">google/gemma-4-26b-a4b-it</text>
 <rect x="310" y="420" width="12" height="12" fill="#FF7B54" rx="2"/>

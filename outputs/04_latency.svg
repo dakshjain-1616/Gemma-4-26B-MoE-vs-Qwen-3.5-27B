@@ -29,58 +29,58 @@
 <text x="70" y="64" text-anchor="start" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#58A6FF">Gemma 4 26B MoE</text>
 <line x1="70" y1="190" x2="670" y2="190" stroke="#30363D" stroke-width="1"/>
 <line x1="70" y1="160" x2="670" y2="160" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="65" y="164" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">18s</text>
+<text x="65" y="164" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">21s</text>
 <line x1="70" y1="130" x2="670" y2="130" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="65" y="134" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">35s</text>
+<text x="65" y="134" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">42s</text>
 <line x1="70" y1="100" x2="670" y2="100" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="65" y="104" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">52s</text>
+<text x="65" y="104" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">64s</text>
 <line x1="70" y1="70" x2="670" y2="70" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="65" y="74" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">70s</text>
+<text x="65" y="74" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">85s</text>
 <defs><linearGradient id="grad_G_cod" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4FC3F7"/><stop offset="100%" stop-color="#4FC3F7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="70" y="171" width="34" height="19" fill="url(#grad_G_cod)" rx="3"/>
-<text x="87" y="167" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">11.1</text>
+<rect x="70" y="154" width="34" height="36" fill="url(#grad_G_cod)" rx="3"/>
+<text x="87" y="150" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">26.0</text>
 <defs><linearGradient id="grad_G_cod" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4FC3F7"/><stop offset="100%" stop-color="#4FC3F7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="110" y="184" width="34" height="6" fill="url(#grad_G_cod)" rx="3"/>
-<text x="127" y="180" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">3.7</text>
+<rect x="110" y="166" width="34" height="24" fill="url(#grad_G_cod)" rx="3"/>
+<text x="127" y="162" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">17.2</text>
 <defs><linearGradient id="grad_G_cod" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4FC3F7"/><stop offset="100%" stop-color="#4FC3F7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="150" y="184" width="34" height="6" fill="url(#grad_G_cod)" rx="3"/>
-<text x="167" y="180" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">3.5</text>
+<rect x="150" y="145" width="34" height="45" fill="url(#grad_G_cod)" rx="3"/>
+<text x="167" y="141" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">32.0</text>
 <defs><linearGradient id="grad_G_cod" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4FC3F7"/><stop offset="100%" stop-color="#4FC3F7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="190" y="184" width="34" height="6" fill="url(#grad_G_cod)" rx="3"/>
-<text x="207" y="180" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">3.6</text>
+<rect x="190" y="173" width="34" height="17" fill="url(#grad_G_cod)" rx="3"/>
+<text x="207" y="169" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">12.5</text>
 <defs><linearGradient id="grad_G_cod" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4FC3F7"/><stop offset="100%" stop-color="#4FC3F7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="230" y="184" width="34" height="6" fill="url(#grad_G_cod)" rx="3"/>
-<text x="247" y="180" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">3.6</text>
+<rect x="230" y="152" width="34" height="38" fill="url(#grad_G_cod)" rx="3"/>
+<text x="247" y="148" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">27.4</text>
 <defs><linearGradient id="grad_G_rea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C792EA"/><stop offset="100%" stop-color="#C792EA" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="270" y="180" width="34" height="10" fill="url(#grad_G_rea)" rx="3"/>
-<text x="287" y="176" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">5.9</text>
+<rect x="270" y="181" width="34" height="9" fill="url(#grad_G_rea)" rx="3"/>
+<text x="287" y="177" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">6.5</text>
 <defs><linearGradient id="grad_G_rea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C792EA"/><stop offset="100%" stop-color="#C792EA" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="310" y="180" width="34" height="10" fill="url(#grad_G_rea)" rx="3"/>
-<text x="327" y="176" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">5.9</text>
+<rect x="310" y="171" width="34" height="19" fill="url(#grad_G_rea)" rx="3"/>
+<text x="327" y="167" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">13.8</text>
 <defs><linearGradient id="grad_G_rea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C792EA"/><stop offset="100%" stop-color="#C792EA" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="350" y="177" width="34" height="13" fill="url(#grad_G_rea)" rx="3"/>
-<text x="367" y="173" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">7.6</text>
+<rect x="350" y="149" width="34" height="41" fill="url(#grad_G_rea)" rx="3"/>
+<text x="367" y="145" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">29.6</text>
 <defs><linearGradient id="grad_G_rea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C792EA"/><stop offset="100%" stop-color="#C792EA" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="390" y="185" width="34" height="5" fill="url(#grad_G_rea)" rx="3"/>
-<text x="407" y="181" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">2.9</text>
+<rect x="390" y="157" width="34" height="33" fill="url(#grad_G_rea)" rx="3"/>
+<text x="407" y="153" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">23.7</text>
 <defs><linearGradient id="grad_G_rea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C792EA"/><stop offset="100%" stop-color="#C792EA" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="430" y="180" width="34" height="10" fill="url(#grad_G_rea)" rx="3"/>
-<text x="447" y="176" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">6.2</text>
+<rect x="430" y="171" width="34" height="19" fill="url(#grad_G_rea)" rx="3"/>
+<text x="447" y="167" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">14.1</text>
 <defs><linearGradient id="grad_G_ins" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A5D6A7"/><stop offset="100%" stop-color="#A5D6A7" stop-opacity="0.5"/></linearGradient></defs>
 <rect x="470" y="188" width="34" height="2" fill="url(#grad_G_ins)" rx="3"/>
-<text x="487" y="184" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">0.7</text>
+<text x="487" y="184" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">1.1</text>
 <defs><linearGradient id="grad_G_ins" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A5D6A7"/><stop offset="100%" stop-color="#A5D6A7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="510" y="188" width="34" height="2" fill="url(#grad_G_ins)" rx="3"/>
-<text x="527" y="184" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">1.4</text>
+<rect x="510" y="187" width="34" height="3" fill="url(#grad_G_ins)" rx="3"/>
+<text x="527" y="183" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">2.5</text>
 <defs><linearGradient id="grad_G_ins" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A5D6A7"/><stop offset="100%" stop-color="#A5D6A7" stop-opacity="0.5"/></linearGradient></defs>
 <rect x="550" y="188" width="34" height="2" fill="url(#grad_G_ins)" rx="3"/>
 <text x="567" y="184" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">1.1</text>
 <defs><linearGradient id="grad_G_ins" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A5D6A7"/><stop offset="100%" stop-color="#A5D6A7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="590" y="188" width="34" height="2" fill="url(#grad_G_ins)" rx="3"/>
-<text x="607" y="184" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">1.2</text>
+<rect x="590" y="187" width="34" height="3" fill="url(#grad_G_ins)" rx="3"/>
+<text x="607" y="183" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">2.5</text>
 <defs><linearGradient id="grad_G_ins" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A5D6A7"/><stop offset="100%" stop-color="#A5D6A7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="630" y="188" width="34" height="2" fill="url(#grad_G_ins)" rx="3"/>
-<text x="647" y="184" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">1.0</text>
+<rect x="630" y="187" width="34" height="3" fill="url(#grad_G_ins)" rx="3"/>
+<text x="647" y="183" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">2.4</text>
 <line x1="270" y1="70" x2="270" y2="190" stroke="#30363D" stroke-width="1" stroke-dasharray="4,3"/>
 <line x1="470" y1="70" x2="470" y2="190" stroke="#30363D" stroke-width="1" stroke-dasharray="4,3"/>
 <text x="170.0" y="82" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">Coding</text>
@@ -89,54 +89,58 @@
 <text x="70" y="224" text-anchor="start" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="600" fill="#FF7B54">Qwen 3.5 27B</text>
 <line x1="70" y1="360" x2="670" y2="360" stroke="#30363D" stroke-width="1"/>
 <line x1="70" y1="328" x2="670" y2="328" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="65" y="332" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">18s</text>
+<text x="65" y="332" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">21s</text>
 <line x1="70" y1="295" x2="670" y2="295" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="65" y="299" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">35s</text>
+<text x="65" y="299" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">42s</text>
 <line x1="70" y1="263" x2="670" y2="263" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="65" y="267" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">52s</text>
+<text x="65" y="267" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">64s</text>
 <line x1="70" y1="230" x2="670" y2="230" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="65" y="234" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">70s</text>
+<text x="65" y="234" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" font-weight="normal" fill="#484F58">85s</text>
 <defs><linearGradient id="grad_Q_cod" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4FC3F7"/><stop offset="100%" stop-color="#4FC3F7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="70" y="348" width="34" height="12" fill="url(#grad_Q_cod)" rx="3"/>
-<text x="87" y="344" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">6.9</text>
+<rect x="70" y="350" width="34" height="10" fill="url(#grad_Q_cod)" rx="3"/>
+<text x="87" y="346" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">7.1</text>
 <defs><linearGradient id="grad_Q_cod" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4FC3F7"/><stop offset="100%" stop-color="#4FC3F7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="110" y="340" width="34" height="20" fill="url(#grad_Q_cod)" rx="3"/>
-<text x="127" y="336" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">10.9</text>
+<rect x="110" y="336" width="34" height="24" fill="url(#grad_Q_cod)" rx="3"/>
+<text x="127" y="332" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">15.9</text>
 <defs><linearGradient id="grad_Q_cod" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4FC3F7"/><stop offset="100%" stop-color="#4FC3F7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="150" y="350" width="34" height="10" fill="url(#grad_Q_cod)" rx="3"/>
-<text x="167" y="346" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">5.5</text>
+<rect x="150" y="344" width="34" height="16" fill="url(#grad_Q_cod)" rx="3"/>
+<text x="167" y="340" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">10.9</text>
 <defs><linearGradient id="grad_Q_cod" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4FC3F7"/><stop offset="100%" stop-color="#4FC3F7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="190" y="349" width="34" height="11" fill="url(#grad_Q_cod)" rx="3"/>
-<text x="207" y="345" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">6.3</text>
+<rect x="190" y="348" width="34" height="12" fill="url(#grad_Q_cod)" rx="3"/>
+<text x="207" y="344" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">8.3</text>
 <defs><linearGradient id="grad_Q_cod" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4FC3F7"/><stop offset="100%" stop-color="#4FC3F7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="230" y="344" width="34" height="16" fill="url(#grad_Q_cod)" rx="3"/>
-<text x="247" y="340" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">9.1</text>
+<rect x="230" y="343" width="34" height="17" fill="url(#grad_Q_cod)" rx="3"/>
+<text x="247" y="339" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">11.4</text>
 <defs><linearGradient id="grad_Q_rea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C792EA"/><stop offset="100%" stop-color="#C792EA" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="270" y="335" width="34" height="25" fill="url(#grad_Q_rea)" rx="3"/>
-<text x="287" y="331" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">13.9</text>
+<rect x="270" y="352" width="34" height="8" fill="url(#grad_Q_rea)" rx="3"/>
+<text x="287" y="348" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">5.5</text>
 <defs><linearGradient id="grad_Q_rea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C792EA"/><stop offset="100%" stop-color="#C792EA" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="310" y="358" width="34" height="2" fill="url(#grad_Q_rea)" rx="3"/>
+<rect x="310" y="337" width="34" height="23" fill="url(#grad_Q_rea)" rx="3"/>
+<text x="327" y="333" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">15.5</text>
 <defs><linearGradient id="grad_Q_rea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C792EA"/><stop offset="100%" stop-color="#C792EA" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="350" y="358" width="34" height="2" fill="url(#grad_Q_rea)" rx="3"/>
+<rect x="350" y="322" width="34" height="38" fill="url(#grad_Q_rea)" rx="3"/>
+<text x="367" y="318" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">25.0</text>
 <defs><linearGradient id="grad_Q_rea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C792EA"/><stop offset="100%" stop-color="#C792EA" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="390" y="358" width="34" height="2" fill="url(#grad_Q_rea)" rx="3"/>
+<rect x="390" y="244" width="34" height="116" fill="url(#grad_Q_rea)" rx="3"/>
+<text x="407" y="240" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">76.2</text>
 <defs><linearGradient id="grad_Q_rea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C792EA"/><stop offset="100%" stop-color="#C792EA" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="430" y="313" width="34" height="47" fill="url(#grad_Q_rea)" rx="3"/>
-<text x="447" y="309" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">25.5</text>
+<rect x="430" y="324" width="34" height="36" fill="url(#grad_Q_rea)" rx="3"/>
+<text x="447" y="320" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">24.0</text>
 <defs><linearGradient id="grad_Q_ins" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A5D6A7"/><stop offset="100%" stop-color="#A5D6A7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="470" y="338" width="34" height="22" fill="url(#grad_Q_ins)" rx="3"/>
-<text x="487" y="334" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">12.0</text>
+<rect x="470" y="326" width="34" height="34" fill="url(#grad_Q_ins)" rx="3"/>
+<text x="487" y="322" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">22.6</text>
 <defs><linearGradient id="grad_Q_ins" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A5D6A7"/><stop offset="100%" stop-color="#A5D6A7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="510" y="358" width="34" height="2" fill="url(#grad_Q_ins)" rx="3"/>
+<rect x="510" y="343" width="34" height="17" fill="url(#grad_Q_ins)" rx="3"/>
+<text x="527" y="339" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">11.4</text>
 <defs><linearGradient id="grad_Q_ins" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A5D6A7"/><stop offset="100%" stop-color="#A5D6A7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="550" y="236" width="34" height="124" fill="url(#grad_Q_ins)" rx="3"/>
-<text x="567" y="232" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">67.3</text>
+<rect x="550" y="337" width="34" height="23" fill="url(#grad_Q_ins)" rx="3"/>
+<text x="567" y="333" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">15.2</text>
 <defs><linearGradient id="grad_Q_ins" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A5D6A7"/><stop offset="100%" stop-color="#A5D6A7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="590" y="248" width="34" height="112" fill="url(#grad_Q_ins)" rx="3"/>
-<text x="607" y="244" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">60.4</text>
+<rect x="590" y="297" width="34" height="63" fill="url(#grad_Q_ins)" rx="3"/>
+<text x="607" y="293" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">41.3</text>
 <defs><linearGradient id="grad_Q_ins" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#A5D6A7"/><stop offset="100%" stop-color="#A5D6A7" stop-opacity="0.5"/></linearGradient></defs>
-<rect x="630" y="340" width="34" height="20" fill="url(#grad_Q_ins)" rx="3"/>
-<text x="647" y="336" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">11.1</text>
+<rect x="630" y="324" width="34" height="36" fill="url(#grad_Q_ins)" rx="3"/>
+<text x="647" y="320" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="7" font-weight="normal" fill="#8B949E">23.8</text>
 <line x1="270" y1="230" x2="270" y2="360" stroke="#30363D" stroke-width="1" stroke-dasharray="4,3"/>
 <line x1="470" y1="230" x2="470" y2="360" stroke="#30363D" stroke-width="1" stroke-dasharray="4,3"/>
 <text x="170.0" y="242" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">Coding</text>
@@ -146,5 +150,5 @@
 <text x="246" y="420" text-anchor="start" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">Gemma 4 26B MoE</text>
 <rect x="390" y="410" width="10" height="10" fill="#FF7B54" rx="2"/>
 <text x="406" y="420" text-anchor="start" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">Qwen 3.5 27B</text>
-<text x="400" y="432" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" font-weight="normal" fill="#484F58">Qwen haiku prompt (#12) took 67s · reasoning failures returned instantly (0s, shown as floor)</text>
+<text x="400" y="432" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="10" font-weight="normal" fill="#484F58">Qwen 12-balls reasoning prompt took 76s · Qwen thinking mode generates many internal tokens before answering</text>
 </svg>

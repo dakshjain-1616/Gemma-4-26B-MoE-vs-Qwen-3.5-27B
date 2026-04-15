@@ -7,12 +7,14 @@
 
 ## TL;DR
 
+> **Note:** These are validated re-run results. The original benchmark had a bug where 4 Qwen API calls (thinking-mode `null` content) were recorded as score=0.0, artificially suppressing Qwen's quality score from ~0.82 to 0.60. Fixed and re-run.
+
 | Metric | Gemma 4 26B MoE | Qwen 3.5 27B | Winner |
 |--------|----------|----------|--------|
-| Avg Quality Score | 0.8400 | 0.5973 | **Gemma 4 26B MoE** |
-| Total API Cost | $0.00223 | $0.03034 | **Gemma 4 26B MoE** |
-| Score per Dollar | 375.9× | 19.7× | **Gemma 4 26B MoE** |
-| Avg Latency | 3.96s | 15.25s | **Gemma 4 26B MoE** |
+| Avg Quality Score | 0.8400 | 0.8200 | **Gemma 4 26B MoE** (barely) |
+| Total API Cost | $0.00225 | $0.03846 | **Gemma 4 26B MoE** |
+| Score per Dollar | 373× | 21× | **Gemma 4 26B MoE** |
+| Avg Latency | 14.2s | 20.9s | **Gemma 4 26B MoE** |
 
 ---
 
@@ -34,31 +36,37 @@
 
 | Category | Gemma 4 26B MoE | Qwen 3.5 27B | Winner |
 |----------|----------|----------|--------|
-| Coding | 1.000 | 0.910 | **Gemma 4 26B MoE** (+0.090) |
-| Reasoning | 0.730 | 0.292 | **Gemma 4 26B MoE** (+0.438) |
-| Instruction Following | 0.790 | 0.590 | **Gemma 4 26B MoE** (+0.200) |
+| Coding | 1.000 | 1.000 | **Tie** |
+| Reasoning | 0.730 | 0.730 | **Tie** |
+| Instruction Following | 0.790 | 0.730 | **Gemma 4 26B MoE** (+0.060) |
 
 ---
 
 ## Key Findings
 
-### 1. Cost Efficiency
-Gemma 4 26B MoE is significantly cheaper, especially on output tokens ($0.40 vs $1.56 per 1M).
-This means for high-throughput workloads, Gemma 4 26B MoE offers substantially better value.
+### 1. Quality Is Nearly Equal
+Gemma scores 0.84 vs Qwen's 0.82 — a 2.4% difference. Coding and reasoning are statistical
+ties. Gemma leads only on instruction-following (0.79 vs 0.73). Neither model is clearly
+"better" at the task level.
 
-### 2. MoE vs Dense Architecture
-The MoE design of Gemma 4 activates only ~4B parameters per token while still leveraging
-26B of learned knowledge. This translates directly to lower inference cost without
-proportional quality loss.
+### 2. Cost Efficiency
+Gemma 4 26B MoE is ~17× cheaper per run ($0.00225 vs $0.03846).
+The gap is driven almost entirely by Qwen's extended thinking mode, which generates thousands
+of internal reasoning tokens billed at $1.56/1M output even when the visible answer is short.
+Example: Qwen spent 6,625 tokens to answer the 12-balls reasoning problem (76s, $0.0103).
 
-### 3. Score/Dollar Crossover
-At current OpenRouter pricing, Gemma 4 26B MoE provides more quality per dollar spent.
-The crossover point depends on task type — for output-heavy tasks, the gap widens further
-in favour of the cheaper output-price model.
+### 3. MoE vs Dense Architecture
+Gemma's MoE activates only ~4B parameters per token while Qwen processes 27B — same hardware
+tier, but Gemma's output token price ($0.40/1M) is 3.9× cheaper than Qwen's ($1.56/1M).
+Qwen's thinking mode multiplies this disadvantage: avg output tokens were 1,639 vs 363 for Gemma.
 
-### 4. Latency
-Gemma 4 26B MoE responds faster on average. For real-time applications, latency can be
-the deciding factor independent of cost.
+### 4. Score/Dollar
+373× vs 21× — Gemma wins on value. But note this ratio is dominated by cost, not quality.
+If Qwen's thinking could be disabled or capped, the gap would narrow substantially.
+
+### 5. Latency
+Gemma averages 14.2s vs Qwen's 20.9s. Qwen's worst prompt (12-balls) took 76 seconds due to
+chain-of-thought token generation. For latency-sensitive applications, this is significant.
 
 ---
 
@@ -66,10 +74,11 @@ the deciding factor independent of cost.
 
 | Use Case | Recommended Model | Reason |
 |----------|-------------------|--------|
-| High-volume production API | Gemma 4 26B MoE | Lower cost at scale |
-| Best raw quality | Gemma 4 26B MoE | Higher avg score |
-| Real-time chat / streaming | Gemma 4 26B MoE | Lower latency |
-| Budget-constrained projects | Gemma 4 26B MoE | Best score/dollar |
+| High-volume production API | **Gemma 4 26B MoE** | 17× lower cost at scale |
+| Best raw quality | **Either** | 0.84 vs 0.82 — within noise margin |
+| Real-time chat / streaming | **Gemma 4 26B MoE** | Lower latency, no thinking overhead |
+| Budget-constrained projects | **Gemma 4 26B MoE** | 17× cheaper, nearly identical quality |
+| Tasks requiring deep reasoning | **Qwen 3.5 27B** | Thinking mode may improve complex tasks |
 
 ---
 

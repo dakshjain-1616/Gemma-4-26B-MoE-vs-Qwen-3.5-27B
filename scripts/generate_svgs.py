@@ -94,15 +94,18 @@ def make_summary_card(s):
     svg += text(W//2, 60, "Cost-Quality Benchmark · 15 prompts · 3 categories · OpenRouter · April 2026", size=12, color=TEXT2)
 
     # Winner badge
-    svg += rect(255, 74, 290, 32, "#0D2010", rx=16, stroke=GREEN, sw=1.5)
-    svg += text(400, 95, "🏆  Winner on all metrics: Gemma 4 26B MoE", size=13, weight="600", color=GREEN)
+    svg += rect(200, 74, 400, 32, "#0D2010", rx=16, stroke=GREEN, sw=1.5)
+    svg += text(400, 95, "🏆  Gemma 4 wins on cost · Quality is nearly equal (0.84 vs 0.82)", size=13, weight="600", color=GREEN)
 
     # 4 stat cards: x positions
+    cost_ratio  = round(q['total_cost_usd'] / g['total_cost_usd'], 1)
+    lat_ratio   = round(q['avg_latency_s']  / g['avg_latency_s'],  1)
+    spd_ratio   = round(g['score_per_dollar'] / q['score_per_dollar'], 0)
     cards = [
-        ("QUALITY SCORE", f"{g['avg_score']:.2f}", f"vs {q['avg_score']:.2f} Qwen", "1.41×", "better score"),
-        ("TOTAL RUN COST", "$0.0022", "vs $0.0303 Qwen", "13.6×", "cheaper per run"),
-        ("AVG LATENCY", f"{g['avg_latency_s']:.2f}s", f"vs {q['avg_latency_s']:.1f}s Qwen", "3.9×", "faster response"),
-        ("SCORE PER DOLLAR", f"{g['score_per_dollar']:.0f}", f"vs {q['score_per_dollar']:.1f} Qwen", "19×", "better value"),
+        ("QUALITY SCORE", f"{g['avg_score']:.2f}", f"vs {q['avg_score']:.2f} Qwen", f"{g['avg_score']/q['avg_score']:.2f}×", "better score"),
+        ("TOTAL RUN COST", f"${g['total_cost_usd']:.4f}", f"vs ${q['total_cost_usd']:.4f} Qwen", f"{cost_ratio:.0f}×", "cheaper per run"),
+        ("AVG LATENCY", f"{g['avg_latency_s']:.1f}s", f"vs {q['avg_latency_s']:.1f}s Qwen", f"{lat_ratio:.1f}×", "faster response"),
+        ("SCORE PER DOLLAR", f"{g['score_per_dollar']:.0f}", f"vs {q['score_per_dollar']:.1f} Qwen", f"{spd_ratio:.0f}×", "better value"),
     ]
 
     cw, gap, margin = 172, 12, 22
@@ -134,7 +137,7 @@ def make_summary_card(s):
     # Footer note
     svg += line(30, 358, W-30, 358, BORDER, dash="4,4")
     svg += text(W//2, 378, "MoE architecture uses only ~4B active params/token vs 27B dense — same hardware tier, dramatically different economics", size=11, color=TEXT3)
-    svg += text(W//2, 400, "Failures: 5 Qwen reasoning/instruction calls returned null (scored 0.0) · Gemma: 0 failures", size=11, color=TEXT3)
+    svg += text(W//2, 400, "Quality gap is narrow (0.84 vs 0.82) · Cost gap is large · Qwen thinking-mode inflates token spend", size=11, color=TEXT3)
 
     # Legend
     svg += rect(30, 420, 12, 12, GEMMA, rx=2)
@@ -174,7 +177,7 @@ def make_overview(s):
             "unit": "(USD, 15 prompts)",
             "gval": g["total_cost_usd"],
             "qval": q["total_cost_usd"],
-            "max": 0.032,
+            "max": 0.045,
             "fmt": fmt_cost,
         },
         {
@@ -182,7 +185,7 @@ def make_overview(s):
             "unit": "(seconds)",
             "gval": g["avg_latency_s"],
             "qval": q["avg_latency_s"],
-            "max": 18.0,
+            "max": 25.0,
             "fmt": lambda v: f"{v:.2f}s",
         },
     ]
@@ -305,8 +308,9 @@ def make_efficiency(s):
     svg += text(mx, y_bot - ch//2 + 20, "more value", size=13, color=GREEN)
     svg += text(mx, y_bot - ch//2 + 38, "per dollar", size=13, color=GREEN)
 
+    cost_mult = round(q["total_cost_usd"] / g["total_cost_usd"], 1)
     svg += line(30, y_bot + 50, W-30, y_bot + 50, BORDER, dash="2,4")
-    svg += text(W//2, y_bot + 68, f"Gemma's MoE design activates only ~4B params/token → 13.6× lower output token cost → {ratio:.0f}× better value", size=11, color=TEXT3)
+    svg += text(W//2, y_bot + 68, f"Gemma's MoE design activates only ~4B params/token → {cost_mult:.0f}× lower total cost → {ratio:.0f}× better value", size=11, color=TEXT3)
 
     svg += svg_footer()
     return svg
@@ -445,7 +449,7 @@ def make_latency(raw):
         ("Qwen 3.5 27B", qdata, 230, 360, QWEN, "url(#gQ)"),
     ]
 
-    max_lat = 70.0  # Qwen haiku hit 67s
+    max_lat = 85.0  # Qwen 12-balls reasoning hit ~76s
 
     for (label, data, y_top, y_bot, color, fill) in sections:
         ch = y_bot - y_top
@@ -488,7 +492,7 @@ def make_latency(raw):
     svg += rect(390, H-30, 10, 10, QWEN, rx=2)
     svg += text(406, H-20, "Qwen 3.5 27B", size=11, anchor="start", color=TEXT2)
 
-    svg += text(W//2, H-8, "Qwen haiku prompt (#12) took 67s · reasoning failures returned instantly (0s, shown as floor)", size=10, color=TEXT3)
+    svg += text(W//2, H-8, "Qwen 12-balls reasoning prompt took 76s · Qwen thinking mode generates many internal tokens before answering", size=10, color=TEXT3)
 
     svg += svg_footer()
     return svg
@@ -511,7 +515,7 @@ def make_scatter(raw):
     cw = xr - xl
     ch = yb - yt
 
-    max_cost = 0.011   # x axis max (just above max Qwen cost)
+    max_cost = 0.012   # x axis max (just above max Qwen cost per call)
     max_score = 1.0    # y axis max
 
     # Grid
@@ -544,12 +548,6 @@ def make_scatter(raw):
     for r in qdata:
         cost = r["cost_usd"]
         score = r["score"]
-        if cost == 0 and score == 0:
-            # Failed call - show at edge with X
-            xi = int((0.0 / max_cost) * cw) + xl + 4
-            yi2 = yb - int((0.0 / max_score) * ch)
-            svg += text(xi, yi2-4, "✕", size=12, color=QWEN, opacity=0.5)
-            continue
         xi = xl + int((cost / max_cost) * cw)
         yi2 = yb - int((score / max_score) * ch)
         xi = max(xl+3, min(xr-3, xi))
@@ -574,17 +572,17 @@ def make_scatter(raw):
     svg += rect(ann_x-75, ann_y+28, 140, 26, SURFACE2, rx=4, stroke=GEMMA, sw=1)
     svg += text(ann_x-5, ann_y+43, "Gemma cluster (cheap+fast)", size=9, color=GEMMA)
 
-    # Qwen outlier annotation
-    out_x = xl + int((0.0099/max_cost)*cw)
-    out_y = yb - int((0.8/max_score)*ch)
-    svg += rect(out_x-80, out_y-34, 160, 22, SURFACE2, rx=4, stroke=QWEN, sw=1)
-    svg += text(out_x, out_y-20, "Qwen haiku: $0.00986, 67s", size=9, color=QWEN)
+    # Qwen outlier annotation (12-balls reasoning: most expensive call)
+    out_x = xl + int((0.01034/max_cost)*cw)
+    out_y = yb - int((0.67/max_score)*ch)
+    svg += rect(out_x-90, out_y-34, 180, 22, SURFACE2, rx=4, stroke=QWEN, sw=1)
+    svg += text(out_x, out_y-20, "Qwen 12-balls: $0.01034, 76s", size=9, color=QWEN)
 
     # Legend
     svg += circle(290, H-24, 7, GEMMA, stroke=SURFACE, sw=1.5)
     svg += text(303, H-19, "Gemma 4 26B MoE (15 calls)", size=11, anchor="start", color=TEXT2)
     svg += circle(490, H-24, 7, QWEN, stroke=SURFACE, sw=1.5)
-    svg += text(503, H-19, "Qwen 3.5 27B (15 calls, 5 failed)", size=11, anchor="start", color=TEXT2)
+    svg += text(503, H-19, "Qwen 3.5 27B (15 calls, 0 failures)", size=11, anchor="start", color=TEXT2)
 
     svg += svg_footer()
     return svg

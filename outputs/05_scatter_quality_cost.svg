@@ -29,15 +29,15 @@
 <line x1="80" y1="70" x2="80" y2="420" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
 <text x="80" y="435" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">$0.0000</text>
 <line x1="212" y1="70" x2="212" y2="420" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="212" y="435" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">$0.0022</text>
+<text x="212" y="435" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">$0.0024</text>
 <line x1="344" y1="70" x2="344" y2="420" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="344" y="435" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">$0.0044</text>
+<text x="344" y="435" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">$0.0048</text>
 <line x1="476" y1="70" x2="476" y2="420" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="476" y="435" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">$0.0066</text>
+<text x="476" y="435" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">$0.0072</text>
 <line x1="608" y1="70" x2="608" y2="420" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="608" y="435" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">$0.0088</text>
+<text x="608" y="435" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">$0.0096</text>
 <line x1="740" y1="70" x2="740" y2="420" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
-<text x="740" y="435" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">$0.0110</text>
+<text x="740" y="435" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">$0.0120</text>
 <line x1="80" y1="70" x2="740" y2="70" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
 <text x="75" y="74" text-anchor="end" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#484F58">1.00</text>
 <line x1="80" y1="140" x2="740" y2="140" stroke="#21262D" stroke-width="1" stroke-dasharray="2,3"/>
@@ -55,28 +55,28 @@
 <text x="400" y="452" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">Cost per Call (USD)</text>
 <text x="20" y="245" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" fill="#8B949E" transform="rotate(-90,20,245)">Quality Score</text>
 <text x="88" y="84" text-anchor="start" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#3FB950" opacity="0.6">← Best value zone</text>
+<circle cx="146" cy="73" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
 <circle cx="152" cy="73" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
-<circle cx="159" cy="73" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
-<circle cx="136" cy="228" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
-<circle cx="143" cy="73" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
-<circle cx="150" cy="73" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
-<circle cx="200" cy="144" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
-<text x="84" y="416" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="normal" fill="#FF7B54" opacity="0.5">✕</text>
-<text x="84" y="416" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="normal" fill="#FF7B54" opacity="0.5">✕</text>
-<text x="84" y="416" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="normal" fill="#FF7B54" opacity="0.5">✕</text>
-<circle cx="303" cy="186" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="178" cy="73" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="138" cy="73" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="144" cy="73" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="131" cy="165" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="216" cy="144" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="247" cy="165" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="648" cy="186" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="266" cy="165" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
 <circle cx="196" cy="193" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
-<text x="84" y="416" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="normal" fill="#FF7B54" opacity="0.5">✕</text>
-<circle cx="671" cy="140" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
-<circle cx="398" cy="140" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="131" cy="158" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="131" cy="158" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="395" cy="140" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
 <circle cx="187" cy="176" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
-<circle cx="94" cy="73" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
-<circle cx="94" cy="73" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
-<circle cx="94" cy="73" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
-<circle cx="94" cy="73" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
-<circle cx="94" cy="73" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
-<circle cx="89" cy="123" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
-<circle cx="94" cy="144" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="93" cy="73" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="93" cy="73" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="93" cy="73" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="93" cy="73" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="93" cy="73" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="88" cy="123" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
+<circle cx="93" cy="144" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
 <circle cx="85" cy="207" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
 <circle cx="91" cy="207" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
 <circle cx="91" cy="144" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
@@ -85,13 +85,13 @@
 <circle cx="83" cy="140" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
 <circle cx="83" cy="105" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
 <circle cx="83" cy="176" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
-<line x1="100" y1="110" x2="55" y2="135" stroke="#58A6FF" stroke-width="1" stroke-dasharray="2,2" opacity="0.6"/>
-<rect x="40" y="133" width="140" height="26" fill="#1C2128" rx="4" stroke="#58A6FF" stroke-width="1"/>
-<text x="110" y="148" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#58A6FF">Gemma cluster (cheap+fast)</text>
-<rect x="594" y="106" width="160" height="22" fill="#1C2128" rx="4" stroke="#FF7B54" stroke-width="1"/>
-<text x="674" y="120" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#FF7B54">Qwen: $0.00986, 67s</text>
+<line x1="98" y1="110" x2="53" y2="135" stroke="#58A6FF" stroke-width="1" stroke-dasharray="2,2" opacity="0.6"/>
+<rect x="38" y="133" width="140" height="26" fill="#1C2128" rx="4" stroke="#58A6FF" stroke-width="1"/>
+<text x="108" y="148" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#58A6FF">Gemma cluster (cheap+fast)</text>
+<rect x="558" y="152" width="180" height="22" fill="#1C2128" rx="4" stroke="#FF7B54" stroke-width="1"/>
+<text x="648" y="166" text-anchor="middle" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="9" font-weight="normal" fill="#FF7B54">Qwen 12-balls: $0.01034, 76s</text>
 <circle cx="290" cy="476" r="7" fill="#58A6FF" stroke="#161B22" stroke-width="1.5"/>
 <text x="303" y="481" text-anchor="start" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">Gemma 4 26B MoE (15 calls)</text>
 <circle cx="490" cy="476" r="7" fill="#FF7B54" stroke="#161B22" stroke-width="1.5"/>
-<text x="503" y="481" text-anchor="start" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">Qwen 3.5 27B (15 calls, 5 failed)</text>
+<text x="503" y="481" text-anchor="start" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="11" font-weight="normal" fill="#8B949E">Qwen 3.5 27B (15 calls, 0 failures)</text>
 </svg>

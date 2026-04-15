@@ -75,8 +75,12 @@ def call_openrouter(model_id: str, prompt: str) -> dict:
     resp.raise_for_status()
     data = resp.json()
     usage = data.get("usage", {})
+    msg = data["choices"][0]["message"]
+    # Qwen 3.x thinking mode can return content=None when only reasoning tokens
+    # were generated; fall back to the reasoning field so the call isn't lost.
+    content = msg.get("content") or msg.get("reasoning") or ""
     return {
-        "response": data["choices"][0]["message"]["content"],
+        "response": content,
         "input_tokens":  usage.get("prompt_tokens", 0),
         "output_tokens": usage.get("completion_tokens", 0),
         "latency_s":     round(latency, 3),

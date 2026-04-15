@@ -48,6 +48,8 @@ This benchmark measures exactly that:
 
 ## Results
 
+> **Validated re-run** — original results had a bug where 4 Qwen API calls returned `null` content (Qwen's thinking mode) and were scored 0.0. Fixed and re-run; quality gap collapsed. Cost gap is real.
+
 <p align="center">
   <img src="outputs/01_overview.svg" alt="Overview" width="100%"/>
 </p>
